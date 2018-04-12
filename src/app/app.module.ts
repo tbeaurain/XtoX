@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ProfilComponent } from './profil/profil.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ProfilComponent } from './profil/profil.component';
     AppComponent,
     NavBarComponent,
     HomeComponent,
-    ProfilComponent
+    ProfilComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
