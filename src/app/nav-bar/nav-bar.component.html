@@ -2,12 +2,20 @@
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-7">
           <app-search-bar></app-search-bar>
         </div>
-        <div class="col-sm-4">
-          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#Connection"><h4>Se Connecter</h4></button>
-          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Inscription"><h4>Créer mon Quean</h4></button>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2">
+            <div class="row">
+                <div class="col-md-10">
+                  <div class="profil">Prenom Nom </div>
+                  <a routerLink="/profil"> Gerer mes ressources </a>
+                </div>
+                <div class="col-md-2"> 
+                    <img src="../../assets/img/loupe.png" >
+                  </div>
+              </div>
         </div>
       </div>
     </div>
