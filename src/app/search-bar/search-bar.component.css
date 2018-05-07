@@ -3,11 +3,23 @@
     box-shadow: 0 0 0;
     border-radius: 0;
     background: transparent;
-    color: #555555;
+    color: #CCCCCC;
     padding: 7px 0;
     font-weight: bold;
     height:auto;
-    border-bottom: 3px solid #000000;
-    color: #919191;
-    padding: 10px 20px;
+    border-bottom: 3px solid #908D8D;
+    color: #CCCCCC;
+    height:8%;
+    width:100%px;
+}
+
+.img-thumbnail{
+    border-style: none
+}
+
+#bouttoum{
+    background-image:url("../../assets/img/loupe.png");
+    border: none;
+    
+    cursor: pointer;
 }
