@@ -9,7 +9,7 @@
     height:auto;
     border-bottom: 3px solid #AFACA0;
     color: #CCCCCC;
-    height:8%;
+    
     width:100%px;
 }
 
@@ -17,9 +17,15 @@
     border-style: none
 }
 
-#bouttoum{
-    background-image:url("../../assets/img/loupe.png");
-    border: none;
+.loupe{
+    background-color: transparent;
+    border-style: none;
+    padding-right: 10%
     
-    cursor: pointer;
 }
+
+.ima{
+    width: 40px;
+	height: 40px;
+}
+
