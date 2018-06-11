@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 
 import { AppComponent } from './app.component';
@@ -9,6 +10,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { ProfilComponent } from './profil/profil.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { ResultComponent } from './result/result.component';
+import { UsersComponent } from './users/users.component';
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { ResultComponent } from './result/result.component';
     HomeComponent,
     ProfilComponent,
     SearchBarComponent,
-    ResultComponent
+    ResultComponent,
+    UsersComponent,
   ],
   imports: [
     BrowserModule,
