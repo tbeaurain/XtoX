@@ -12,7 +12,6 @@
   },
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "@angular-devkit/build-angular": "^0.6.5",
     "@angular/animations": "^5.2.11",
     "@angular/common": "^5.2.11",
@@ -25,22 +24,11 @@
     "@angular/router": "^5.2.11",
     "@ng-bootstrap/ng-bootstrap": "^1.1.2",
     "angular-in-memory-web-api": "^0.6.0",
-=======
-    "@angular/animations": "6.0.4",
-    "@angular/common": "6.0.4",
-    "@angular/compiler": "6.0.4",
-    "@angular/core": "6.0.4",
-    "@angular/forms": "6.0.4",
-    "@angular/http": "6.0.4",
-    "@angular/platform-browser": "6.0.4",
-    "@angular/platform-browser-dynamic": "6.0.4",
-    "@angular/router": "6.0.4",
-    "@ng-bootstrap/ng-bootstrap": "^1.1.0",
->>>>>>> f86f5b2402d9dfb9141c746fefbba814f9a19253
+
     "bootstrap": "^3.3.7",
     "core-js": "^2.5.7",
     "jquery": "^3.3.1",
-<<<<<<< HEAD
+
     "ngx-bootstrap": "^2.0.5",
     "rxjs": "^5.5.11",
     "zone.js": "^0.8.26"
@@ -50,17 +38,7 @@
     "@angular/compiler-cli": "^5.2.11",
     "@angular/language-service": "^5.2.11",
     "@types/jasmine": "^2.8.7",
-=======
-    "ngx-bootstrap": "^2.0.3",
-    "rxjs": "^6.2.0",
-    "zone.js": "^0.8.26"
-  },
-  "devDependencies": {
-    "@angular/cli": "^6.0.8",
-    "@angular/compiler-cli": "6.0.4",
-    "@angular/language-service": "6.0.4",
-    "@types/jasmine": "~2.8.3",
->>>>>>> f86f5b2402d9dfb9141c746fefbba814f9a19253
+
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "^6.0.111",
     "codelyzer": "^4.3.0",
