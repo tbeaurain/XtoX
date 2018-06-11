@@ -1,4 +1,4 @@
-export class File {
-    id: number;
-    name: string;
-  }
+export class Type {
+  id: number;
+  type: string;
+}
