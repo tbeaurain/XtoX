@@ -21,7 +21,11 @@
               "src/favicon.ico"
             ],
             "styles": [
+<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+=======
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+>>>>>>> f86f5b2402d9dfb9141c746fefbba814f9a19253
               "src/styles.css"
             ],
             "scripts": [
@@ -103,7 +107,11 @@
     },
     "xto-x-e2e": {
       "root": "",
+<<<<<<< HEAD
       "sourceRoot": "",
+=======
+      "sourceRoot": "e2e",
+>>>>>>> f86f5b2402d9dfb9141c746fefbba814f9a19253
       "projectType": "application",
       "architect": {
         "e2e": {
