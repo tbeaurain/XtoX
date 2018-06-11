@@ -12,6 +12,7 @@ import { ProfilComponent } from './webPage/profil/profil.component';
 import { SearchBarComponent } from './functionality/search-bar/search-bar.component';
 import { ResultComponent } from './webPage/result/result.component';
 import { UsersComponent } from './functionality/users/users.component';
+import { FilesComponent } from './functionality/files/files.component';
 
 
 
@@ -24,6 +25,7 @@ import { UsersComponent } from './functionality/users/users.component';
     SearchBarComponent,
     ResultComponent,
     UsersComponent,
+    FilesComponent,
   ],
   imports: [
     BrowserModule,
