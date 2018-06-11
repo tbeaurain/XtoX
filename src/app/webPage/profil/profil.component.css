@@ -9,7 +9,7 @@
     margin-left: 10px
 }
 
-.title {
+.result .title {
     font-size: 20px;
     color: #3A3A37;
     display: inline;
@@ -48,10 +48,21 @@
     border-radius: 5px;
     border-color: #d1d1e0
 }
-.page{
-    margin-left: 15%;
-}
 
 .espace{
     padding-bottom: 10%  
+}
+
+.profil .title{
+    font-size: 45;
+    color: black
+}
+
+.profil .mail{
+    color: blue;
+    font-size: 17
+}
+
+.profil .description{
+    font-size: 15
 }
