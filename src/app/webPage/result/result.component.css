@@ -1,19 +1,5 @@
-.result{
-    border-left-style: solid;
-    border-color: #AFACA0;
-    border-width: 2px;
-    margin-bottom: 8%
-}
-
 .result nav{
     margin-left: 10px
-}
-
-.title {
-    font-size: 20px;
-    color: #3A3A37;
-    display: inline;
-    padding-left: 10px
 }
 
 .profil{
@@ -21,11 +7,6 @@
     padding-top: 4px;
     color: #817F74;
     font-size: 15
-}
-
-.contenu{
-    padding-left: 10px;
-    color: #AFACA0
 }
 
 .tag{
@@ -48,6 +29,7 @@
     border-radius: 5px;
     border-color: #d1d1e0
 }
+
 .page{
     margin-left: 15%;
 }
