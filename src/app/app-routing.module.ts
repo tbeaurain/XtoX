@@ -6,6 +6,7 @@ import { HomeComponent } from './webPage/home/home.component';
 import { ProfilComponent } from './webPage/profil/profil.component';
 import { ResultComponent } from './webPage/result/result.component';
 import { FilesComponent } from './functionality/files/files.component';
+import { UsersComponent } from './functionality/users/users.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'profil', component: ProfilComponent },
   { path: 'result', component: ResultComponent },
   { path: 'files', component: FilesComponent },
+  { path: 'user', component: UsersComponent}
 ];
 
 @NgModule({
