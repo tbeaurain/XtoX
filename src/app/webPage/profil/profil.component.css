@@ -2,6 +2,11 @@
     margin-left: 10px
 }
 
+.nav-tabs {
+    border-bottom: 0px solid ;
+}
+
+
 .tag{
     padding-bottom: 2%;
     padding-top: 2%

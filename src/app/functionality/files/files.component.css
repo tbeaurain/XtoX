@@ -10,7 +10,7 @@
 /* title files */
 .result .title {
     font-size: 20px;
-    color: #3A3A37;
+    color: #35404B;
     display: inline;
     padding-left: 10px
 }
@@ -22,8 +22,11 @@
 
 /*author files */
 .author{
-    padding-left: 4px;
     padding-top: 4px;
     color: #817F74;
     font-size: 15
+}
+
+.information{
+    padding-left: 3%
 }

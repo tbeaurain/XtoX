@@ -17,6 +17,10 @@
     padding-top: 2%
 }
 
+.nav-tabs {
+    border-bottom: 0px solid ;
+}
+
 .nav{
     padding-bottom: 4%  
 }

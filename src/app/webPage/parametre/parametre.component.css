@@ -7,3 +7,12 @@
     padding-bottom: 2%;
     padding-top: 2%
 }
+
+.h5, h5 {
+    margin: 0;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
