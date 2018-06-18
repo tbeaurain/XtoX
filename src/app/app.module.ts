@@ -7,7 +7,7 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './functionality/nav-bar/nav-bar.component';
+import { NavBarComponent } from './functionality/nav-bar/nav-bar-users/nav-bar.component';
 import { HomeComponent } from './webPage/home/home.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { FormsModule } from '@angular/forms';
@@ -18,6 +18,9 @@ import { ResultComponent } from './webPage/result/result.component';
 import { UsersComponent } from './functionality/users/users.component';
 import { FilesComponent } from './functionality/files/files.component';
 import { UserService } from './functionality/users/user.service';
+import { ConditionGeneraleComponent } from './webPage/condition-generale/condition-generale.component';
+import { ParametreComponent } from './webPage/parametre/parametre.component';
+import { NavBarConnectComponent } from './functionality/nav-bar/nav-bar-connect/nav-bar-connect.component';
 
 
 
@@ -31,6 +34,9 @@ import { UserService } from './functionality/users/user.service';
     ResultComponent,
     UsersComponent,
     FilesComponent,
+    ConditionGeneraleComponent,
+    ParametreComponent,
+    NavBarConnectComponent,
   ],
   imports: [
     BrowserModule,

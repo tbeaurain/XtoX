@@ -9,6 +9,9 @@
     font-size: 15
 }
 
+.label {
+    margin-right: 1%
+}
 .tag{
     padding-bottom: 2%;
     padding-top: 2%

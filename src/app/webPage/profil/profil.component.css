@@ -2,13 +2,6 @@
     margin-left: 10px
 }
 
-.profil{
-    padding-left: 4px;
-    padding-top: 4px;
-    color: #817F74;
-    font-size: 15
-}
-
 .tag{
     padding-bottom: 2%;
     padding-top: 2%
@@ -23,29 +16,8 @@
     padding-right: 2%;
 }
 
-.card{
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    border-color: #d1d1e0
-}
-
 .espace{
     padding-bottom: 10%  
-}
-
-.profil .title{
-    font-size: 45;
-    color: black
-}
-
-.profil .mail{
-    color: blue;
-    font-size: 17
-}
-
-.profil .description{
-    font-size: 15
 }
 
 .search{

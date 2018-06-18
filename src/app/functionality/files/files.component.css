@@ -2,8 +2,9 @@
 .files{
     border-left-style: solid;
     border-color: #AFACA0;
-    border-width: 2px;
-    margin-bottom: 20px
+    border-width: 3px;
+    margin-bottom: 20px;
+    padding-left: 15px
 }
 
 /* title files */
@@ -16,7 +17,6 @@
 
 /*contenue files */
 .contenu{
-    padding-left: 10px;
     color: #AFACA0
 }
 

@@ -1,25 +1,25 @@
-<h2>Mon profil</h2>
- <!-- 
-tester les différentes fonctions (Update, delete et add)
-revoir le message d'erreur log etc
- -->
-<div>
-  <label>firstname:
-    <input #userFirstname />
-  </label>
-  <!-- (click) passes input value to add() and then clears the input -->
-  <button (click)="add(userFirstname.value); userFirstname.value=''">
-    add
-  </button>
+<div class = "row">
+    <div class = "col-md-1"></div>
+    <div class = "col-md-1">
+      <div class = "imageProfil"> <img src="../../assets/img/loupe.png" > </div>
+    </div>
+    <div class = "col-md-8">
+      <div class = "Profil">
+      <div class = "title"> John Doe </div>
+      <div class = "mail" >thisisJohn.quean.fr </div>
+      <div class = "description"> Chercher en urbaniste, auteur du livre "Design et ville" </div>
+      <div class = "acces">PAR DEFAUT MES RESSOURCES SONT ACCESSIBLES A : TOUT LE MONDE
+        <div class="btn-group"> 
+          <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <img src="../../assets/img/down-arrow.png" width="20" height="20"> 
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" >TOUT LE MONDE</a> <li> </li>
+            <a class="dropdown-item" >MOI UNIQUEMENT</a> <li> </li>
+            <a class="dropdown-item" >CERTAIN CONTACT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
 </div>
- 
-<ul class="users">
-  <li *ngFor="let user of users">
-    <a routerLink="/detail/{{user.id}}">
-      <span class="badge">{{user.id}}</span> {{user.firstname}}
-    </a>
-    <button class="delete" title="delete user"
-    (click)="delete(user)">x</button>      
-    <button (click)="save()">save</button>    
-  </li>
-</ul>

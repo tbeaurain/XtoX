@@ -1,0 +1,29 @@
+<nav class="navbar navbar">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="row">
+        <div class="col-sm-6">
+          <app-search-bar></app-search-bar>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2">
+          <div class="profil"> 
+              <h4> <a routerLink="/profil" > Prenom Nom </a>
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="../../assets/img/down-arrow.png" width="20" height="20"> 
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" routerLink="/parametre" >Mes Paramètres</a> <li></li>
+              <a class="dropdown-item" routerLink="/conditionGenerale">Conditions générales</a> <li></li>
+              <a class="dropdown-item" >Me déconnecter </a> 
+            </div>
+          </h4>
+          </div>
+        </div>
+        <div class="col-sm-1">
+          <img src="../../assets/img/loupe.png" >
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
