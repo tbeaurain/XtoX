@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { HttpModule } from '@angular/http';
 
 //simulation of a service to test our fonctions (to be deleted when the connexion with the back is done)
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
@@ -21,6 +22,7 @@ import { UserService } from './functionality/users/user.service';
 import { ConditionGeneraleComponent } from './webPage/condition-generale/condition-generale.component';
 import { ParametreComponent } from './webPage/parametre/parametre.component';
 import { NavBarConnectComponent } from './functionality/nav-bar/nav-bar-connect/nav-bar-connect.component';
+import { ConnectbackendService } from './connectbackend.service';
 
 
 
@@ -43,12 +45,13 @@ import { NavBarConnectComponent } from './functionality/nav-bar/nav-bar-connect/
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    HttpModule,
     //delete when connexion backend/DataBase is done
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, {dataEncapsulation: false}
     ),
   ],
-  providers: [UserService],
+  providers: [UserService, ConnectbackendService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { User } from '../../class/user';
 import { UserService } from './user.service';
 import { Location } from '@angular/common';
+import { ConnectbackendService} from '../../connectbackend.service';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+
 
 @Component({
   selector: 'app-users',
@@ -11,19 +14,27 @@ import { Location } from '@angular/common';
 export class UsersComponent implements OnInit {
   
   users: User[];
+  error: any;
   
   constructor(
-    private userService: UserService,
-    private location: Location
+    private backendService: ConnectbackendService,
+    //private location: Location
   ) { }
 
-  getUsers(): void {
-    this.userService.getUsers()
-      .subscribe(users => this.users = users);
+  getUsers() {
+    this.backendService
+        .getUsers()
+        .then(users => this.users = this.users)
+        .catch(error => this.error = error);
   }
 
   ngOnInit() {
     this.getUsers();
+  }
+
+   /* getUsers(): void {
+    this.userService.getUsers()
+      .subscribe(users => this.users = users);
   }
 
   selectedUser: User;
@@ -53,7 +64,7 @@ export class UsersComponent implements OnInit {
   save(): void {
     this.userService.updateUser(this.selectedUser)
       .subscribe(() => this.goBack());
-  }
+  }*/
 
 
 }
