@@ -47,9 +47,9 @@ import { ConnectbackendService } from './connectbackend.service';
     HttpClientModule,
     HttpModule,
     //delete when connexion backend/DataBase is done
-    HttpClientInMemoryWebApiModule.forRoot(
+    /*HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, {dataEncapsulation: false}
-    ),
+    ),*/
   ],
   providers: [UserService, ConnectbackendService],
   bootstrap: [AppComponent]

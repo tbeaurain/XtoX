@@ -4,35 +4,57 @@ import { UserService } from './user.service';
 import { Location } from '@angular/common';
 import { ConnectbackendService} from '../../connectbackend.service';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+/*import { connect } from 'tls';*/
 
 
 @Component({
   selector: 'app-users',
   templateUrl: './users.component.html',
-  styleUrls: ['./users.component.css']
+  styleUrls: ['./users.component.css'],
+  providers: [ConnectbackendService],
 })
 export class UsersComponent implements OnInit {
   
   users: User[];
   error: any;
+  register;
   
   constructor(
     private backendService: ConnectbackendService,
     //private location: Location
   ) { }
 
-  getUsers() {
+  /*getUsers() {
     this.backendService
         .getUsers()
         .then(users => this.users = this.users)
         .catch(error => this.error = error);
+  }*/
+  
+  ngOnInit() {
+    this.register = {
+      firstname:'',
+      lastname:'',
+      email:'',
+      phone:'',
+      password:'',
+    };
   }
 
-  ngOnInit() {
+  registerUser(){
+    this.backendService.registerUser(this.register).subscribe(
+      response => {
+        alert('User '+ this.register.firstname +' has been created')
+      },
+      error => console.log('error', error)
+    );
+  }
+
+  /*ngOnInit() {
     this.getUsers();
   }
 
-   /* getUsers(): void {
+ getUsers(): void {
     this.userService.getUsers()
       .subscribe(users => this.users = users);
   }
